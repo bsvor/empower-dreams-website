@@ -102,6 +102,18 @@
     background: var(--color-bg-warm);
 }
 
+/* Clickable Card/Featured Links */
+.blog-featured-link,
+.blog-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.blog-card-link .blog-card {
+    cursor: pointer;
+}
+
 /* Featured Post */
 .blog-featured {
     display: grid;
