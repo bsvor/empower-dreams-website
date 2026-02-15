@@ -202,8 +202,12 @@ h1, h2, h3, h4 {
     box-shadow: var(--shadow-sm);
 }
 
-.navbar.scrolled .nav-logo img {
-    filter: none;
+.navbar.scrolled .nav-logo .logo-white {
+    display: none;
+}
+
+.navbar.scrolled .nav-logo .logo-color {
+    display: block;
 }
 
 .navbar.scrolled .nav-link {
@@ -240,8 +244,15 @@ h1, h2, h3, h4 {
 .nav-logo img {
     height: 36px;
     width: auto;
-    filter: brightness(0) invert(1);
     transition: var(--transition);
+}
+
+.nav-logo .logo-white {
+    display: block;
+}
+
+.nav-logo .logo-color {
+    display: none;
 }
 
 .nav-links {
@@ -872,7 +883,6 @@ h1, h2, h3, h4 {
 .footer-logo img {
     height: 32px;
     width: auto;
-    filter: brightness(0) invert(1);
 }
 
 .footer-mission {
