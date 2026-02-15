@@ -480,6 +480,10 @@
     gap: 32px;
 }
 
+.team-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .team-card {
     text-align: center;
     padding: 32px 20px;
@@ -715,6 +719,10 @@
 
     .team-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-grid-4 {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
