@@ -26,11 +26,11 @@
 }
 
 .navbar-dark.scrolled .nav-logo .logo-white {
-    display: block;
+    opacity: 1;
 }
 
 .navbar-dark.scrolled .nav-logo .logo-color {
-    display: none;
+    opacity: 0;
 }
 
 .navbar-dark.scrolled .nav-link {

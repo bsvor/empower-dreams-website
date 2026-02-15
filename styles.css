@@ -203,11 +203,11 @@ h1, h2, h3, h4 {
 }
 
 .navbar.scrolled .nav-logo .logo-white {
-    display: none;
+    opacity: 0;
 }
 
 .navbar.scrolled .nav-logo .logo-color {
-    display: block;
+    opacity: 1;
 }
 
 .navbar.scrolled .nav-link {
@@ -239,20 +239,25 @@ h1, h2, h3, h4 {
 .nav-logo {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .nav-logo img {
     height: 36px;
     width: auto;
-    transition: var(--transition);
+    transition: opacity 0.3s ease;
 }
 
 .nav-logo .logo-white {
-    display: block;
+    opacity: 1;
 }
 
 .nav-logo .logo-color {
-    display: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
 }
 
 .nav-links {
