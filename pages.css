@@ -71,6 +71,18 @@
     transform: scale(1.05);
 }
 
+.page-header-bg-logo {
+    background:
+        url('images/logo-white.png') center center / 300px auto no-repeat,
+        linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.page-header-bg-logo + .page-header-overlay {
+    background: linear-gradient(135deg, rgba(26, 26, 46, 0.75), rgba(15, 52, 96, 0.65));
+}
+
 .page-header-overlay {
     position: absolute;
     inset: 0;
