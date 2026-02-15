@@ -242,6 +242,12 @@
     object-position: center center;
 }
 
+.blog-card-image.page-header-bg-logo {
+    background:
+        url('images/logo-white.png') center center / 80px auto no-repeat,
+        linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
 .blog-card:hover .blog-card-image img {
     transform: scale(1.06);
 }
