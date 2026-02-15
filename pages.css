@@ -25,8 +25,8 @@
     background: rgba(26, 26, 46, 0.97);
 }
 
-.navbar-dark.scrolled .nav-logo .logo-empower {
-    color: #fff;
+.navbar-dark.scrolled .nav-logo img {
+    filter: brightness(0) invert(1);
 }
 
 .navbar-dark.scrolled .nav-link {

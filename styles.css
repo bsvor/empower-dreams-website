@@ -202,9 +202,8 @@ h1, h2, h3, h4 {
     box-shadow: var(--shadow-sm);
 }
 
-.navbar.scrolled .nav-logo .logo-empower,
-.navbar.scrolled .nav-logo .logo-dreams {
-    color: var(--color-dark);
+.navbar.scrolled .nav-logo img {
+    filter: none;
 }
 
 .navbar.scrolled .nav-link {
@@ -234,21 +233,14 @@ h1, h2, h3, h4 {
 }
 
 .nav-logo {
-    font-size: 1.5rem;
-    font-weight: 700;
     display: flex;
-    gap: 0;
+    align-items: center;
 }
 
-.logo-empower {
-    color: #fff;
-    font-weight: 300;
-    transition: var(--transition);
-}
-
-.logo-dreams {
-    color: var(--color-primary);
-    font-weight: 700;
+.nav-logo img {
+    height: 36px;
+    width: auto;
+    filter: brightness(0) invert(1);
     transition: var(--transition);
 }
 
@@ -873,14 +865,14 @@ h1, h2, h3, h4 {
 }
 
 .footer-logo {
-    display: inline-flex;
-    font-size: 1.4rem;
-    font-weight: 700;
+    display: inline-block;
     margin-bottom: 20px;
 }
 
-.footer-logo .logo-empower {
-    color: #fff;
+.footer-logo img {
+    height: 32px;
+    width: auto;
+    filter: brightness(0) invert(1);
 }
 
 .footer-mission {
